@@ -1,0 +1,19 @@
+{
+  "name": "odata-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080",
+    "build": "parcel build src/frontend/index.html -d build"
+  },
+  "dependencies": {
+    "express": "latest",
+    "node-fetch": "2.2.0",
+    "parcel-bundler": "1.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
